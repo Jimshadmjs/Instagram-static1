@@ -1,0 +1,403 @@
+.header{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+}
+body{
+    margin: 0;
+}
+.hr-poss{
+    padding-top: 57px;
+}
+.body-part{
+    padding-top: 70px;
+}
+.insta{
+    width: 50%;
+    float: left;
+}
+.sign-in{
+    float: left;
+}
+.left-header{
+    padding-left: 200px;
+}
+.log-in{
+    background: rgb(3, 150, 241);
+    border-radius: 16%;
+    height: 32px;
+    width: 71px;
+    border: #fff;
+    margin-left: 322px;
+    margin-top: 14px;
+    float: left;
+    cursor: pointer;
+}
+.log-in:hover{
+    background:rgb(8, 8, 126) ;
+}
+.sign-in{
+    float: left;
+    color:rgb(3, 150, 241);
+    border-radius: 14%;
+    height: 33px;
+    width: 71px;
+    border: #fff;
+    margin-left: 6px;
+    margin-top: 10px;
+    background: #fff;
+    cursor: pointer;
+    
+}
+.sign-in :hover{
+    color: rgb(8, 8, 126);
+}
+.btn{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: .875rem;
+    font-family: var(--font-family-system);
+    font-weight: var(--font-weight-system-semibold);
+    border-top-left-radius: 2px
+}
+.btn2{
+    color: rgb(var(--ig-primary-button));
+    font-family: var(--font-family-system);
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: var(--font-weight-system-semibold);
+    border-top-left-radius: 2px
+}
+.center{
+    align-items: center;
+    
+}
+.part-1{
+    width: 39%;
+    height: 250px;
+    float: left;
+}
+.insta-image{
+    padding-top: 69px;
+    height: 90px;
+    width: 90px;
+    padding-left: 370px;
+}
+.part1-right{
+    float: left;
+    width: 60%;
+}
+.insta-text{
+    padding-top: 7px;
+    float: left;
+    padding-left: 9px;
+
+}
+.verified{
+    float: left;
+    padding-left: 7px;
+    padding-top: 31px;
+}
+.insta-font{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+    ;
+    font-weight: 400;
+    font-size: 21px;
+}
+.follow-button{
+    float: left;
+    padding-left:27px ;
+    padding-top: 23px;
+}
+.follow-button2{
+    border: #fff;
+    border-radius: 14%;
+    height: 31px;
+    width: 80px;
+    font-weight: 500;
+    font-size: smaller;
+    background:rgb(238, 237, 237);
+    cursor: pointer;
+}
+.follow-button2:hover{
+    background: rgb(215, 214, 214);
+}
+.message-button{
+    padding-left: 10px;
+}
+.part-2{
+    margin-left: 580px;
+    width: 50%;
+}
+.post{
+    float: left;
+    margin-left: 10px;
+    font-size: smaller;
+    font-weight: 600;
+}
+.followers{
+    float: left;
+    margin-left: 50px;
+    font-size: smaller;
+    font-weight: 600;
+}
+.following{
+    float: left;
+    margin-left: 35px;
+    font-size: smaller;
+    font-weight: 600;
+}
+.writing-insta{
+    width: 50%;
+    
+}
+.instagram-text{
+    margin-left: 590px;
+    font-size: smaller;
+    font-weight: 600;
+}
+.insta-size{
+    padding-top: 3px;
+    border-radius: 17px;
+    border: #fff;
+    font-size: small;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+.insta-size:hover{
+    background: rgb(215, 214, 214);
+}
+.discover{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 538px;
+    
+}
+.move{
+    float: left;
+    margin-left: 7px;
+}
+.move2{
+    padding-left: 49px;
+}
+.part-3{
+    margin-left: 590px;
+    width: 50%;
+}
+.insta-link{
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 500;
+    cursor: pointer;
+}
+.insta-link:hover{
+    text-decoration: underline;
+}
+.img1{
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid ;
+}
+.relate{
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.image1{
+    top: 26px;
+    left: 320px;
+    position: absolute;
+
+}
+.image2{
+    top: 26px;
+    left: 450px;
+    position: absolute;
+}
+.image3{
+    top: 26px;
+    left: 580px;
+    position: absolute;
+}
+.image4{
+    top: 26px;
+    left: 710px;
+    position: absolute;
+}
+.image5{
+    top: 26px;
+    left: 840px;
+    position: absolute;
+}
+.image6{
+    top: 26px;
+    left: 970px;
+    position: absolute;
+}
+.image7{
+    top: 26px;
+    left: 1100px;
+    position: absolute;
+}
+.new-font{
+    font-size: small;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.logos{
+    width: 100%;
+    position: relative;
+}
+.posts{
+    position: absolute;
+    left: 575px;
+}
+.reels{
+    position: absolute;
+    left: 700px;
+}
+.tags{
+    position: absolute;
+    left: 815px;
+}
+.image-posts{
+    width: 290px;
+    height: 280px;
+}
+.main-posts{
+    position: relative;
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+.post-logo1{
+    position: absolute;
+    top: 4px;
+    left: 267px;
+}
+.post-logo2{
+    position: absolute;
+    top: 4px;
+    left: 560px;
+}
+.post-logo3{
+    position: absolute;
+    top: 289px;
+    left: 560px;
+}
+.reel-logo1{
+    position: absolute;
+    top: 289px;
+    left: 267px;
+}
+.reel-logo2{
+    position: absolute;
+    top: 289px;
+    left: 853px;
+}
+.reel-logo3{
+    position: absolute;
+    top: 4px;
+    left: 853px;
+}
+.reel-logo4{
+    position: absolute;
+    top: 574px;
+    left: 267px;
+}
+.post-logo4{
+    position: absolute;
+    top: 574px;
+    left: 560px;
+}
+.reel-logo5{
+    position: absolute;
+    top: 574px;
+    left: 853px;
+}
+.post-logo5{
+    position: absolute;
+    top: 859px;
+    left: 853px;
+}
+.post-logo6{
+    position: absolute;
+    top: 859px;
+    left: 267px;
+}
+.reel-logo6{
+    position: absolute;
+    top: 859px;
+    left: 560px;
+}
+.related-class{
+    font-weight: 500;
+    font-size: smaller;
+    color: rgb(148, 146, 146);
+}
+.last-position{
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 4px;
+}
+.card{
+    position: relative;
+    border-radius: 7px;
+    height: 185px;
+    width: 155px;
+    border: 1px solid rgb(213, 211, 211);
+}
+.card-image{
+    position: absolute;
+    left: 49px;
+    top: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.names{
+    position: absolute;
+    left: 37px;
+    top: 78px;
+}
+.vari-logo{
+    position: absolute;
+    left: 98px;
+    top: 69px;
+}
+.new-follow{
+    position: absolute;
+    left: 14px;
+    top: 118px;
+}
+.pos-1{
+    float: left;
+}
+.pos-2{
+    float: left;
+    padding-left: 10px;
+
+}
+.footer-position{
+    padding-top: 250px;
+    margin-left: 275px;
+    margin-right: 350px;
+}
+.un-order{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.footer-font{
+    font-size: small;
+    font-weight: 200;
+    color: rgb(137, 133, 133);
+}
+.un-order2{
+    justify-content: center;
+}
